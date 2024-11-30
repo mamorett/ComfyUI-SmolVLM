@@ -1,0 +1,15 @@
+[project]
+name = "comfyUI-smolvlm"
+description = "Nodes to use SmolVLM for image tagging and captioning"
+version = "1.0.0"
+license = "MIT"
+dependencies = ["transformers>=4.38.0"]
+
+[project.urls]
+Repository = "https://github.com/mamorett/ComfyUI-SmolVLM"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "trithemius"
+DisplayName = "ComfyUI-SmolVLM"
+Icon = ""
